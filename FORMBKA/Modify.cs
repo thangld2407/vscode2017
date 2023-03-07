@@ -33,7 +33,11 @@ namespace FORMBKA
 
                 while (dataReader.Read())
                 {
-                    accounts.Add(new Account(dataReader.GetString(1), dataReader.GetString(2), dataReader.GetString(3)));
+                    var username = dataReader.GetValue(1);
+                    var password = dataReader.GetValue(2);
+                    var role = dataReader.GetValue(3);
+
+                    accounts.Add(new Account(username.ToString(), password.ToString(), Int32.Parse(role.ToString())));
                 }
 
                
@@ -58,7 +62,7 @@ namespace FORMBKA
 
                 while (dataReader.Read())
                 {
-                   role = dataReader.GetString(3);
+                   role = dataReader.GetValue(3).ToString();
                 }
             }
 

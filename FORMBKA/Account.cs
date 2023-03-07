@@ -10,13 +10,13 @@ namespace FORMBKA
     {
         private string username;
         private string password;
-        private string role;
+        private int role;
         public Account()
         {
 
         }
 
-        public Account(string userName, string passWord, string role)
+        public Account(string userName, string passWord, int role)
         {
             this.username = userName;
             this.password = passWord;

@@ -10,7 +10,7 @@ namespace FORMBKA
 {
     class Connection
     {
-        private static string connectionString = @"Data Source=CATPC\SQLEXPRESS;Initial Catalog=formpk;Integrated Security=True";
+        private static string connectionString = @"Data Source=DESKTOP-TCL2TBT\SQLEXPRESS;Initial Catalog=Formbka;Integrated Security=True";
         public static SqlConnection GetSqlConnection()
         {
             return new SqlConnection(connectionString);
