@@ -10,8 +10,11 @@ using System.Windows.Forms;
 
 namespace FORMBKA
 {
+
     public partial class Control : Form
     {
+        public string UserLogin { get; set; }
+        public bool isChange = false;
         public Control()
         {
             InitializeComponent();
@@ -26,5 +29,56 @@ namespace FORMBKA
         {
 
         }
+
+        private void Control_Load(object sender, EventArgs e)
+        {
+            int rs = Int32.Parse(UserLogin);
+            if(rs ==0)
+            {
+
+                lbUserLogin.Text = "admin";
+            }else
+            {
+                lbUserLogin.Text = "operator";
+            }
+        }
+
+        private void label23_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            isChange = true;
+            pgColor1.Text = "111";
+            //changeColor();
+
+
+        }
+
+        void changeColor()
+        {
+            if(pgColor1.BackColor == Color.Green)
+            {
+                pgColor1.BackColor = Color.Yellow;
+            }else
+            {
+                pgColor1.BackColor = Color.Green;
+            }
+
+
+            if (pgColor2.BackColor == Color.Yellow)
+            {
+                pgColor2.BackColor = Color.Green;
+            }
+            else
+            {
+                pgColor1.BackColor = Color.Yellow;
+            }
+
+            changeColor();
+        }
+   
     }
 }

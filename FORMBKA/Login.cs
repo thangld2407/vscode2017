@@ -25,30 +25,35 @@ namespace FORMBKA
 
         private void button1_Click(object sender, EventArgs e)
         {
-            String query = "SELECT * FROM ACCOUNT";
-            var taikhoans = new List<String>(); 
-            try
-            {
-                using(SqlConnection conn = Connection.GetSqlConnection())
+            string username = txtUsername.Text;
+            string password = txtPassword.Text;
+            Modify modify = new Modify();
+            try { 
+            
+                if (username.Trim() == "" || password.Trim() == "")
                 {
-                    conn.Open();
+                    MessageBox.Show("Missing some field");
+                    return;
+                }
+                else
+                {
+                    string query = "SELECT * FROM Account WHERE username = '"+username+"' " ;
 
-                    sqlCommand = new SqlCommand();
-
-                    sqlCommand.Connection = conn;
-                    sqlCommand.CommandText = query;
-                    dataReader = sqlCommand.ExecuteReader();
-
-                    while(dataReader.Read())
+                    var account = modify.Accounts(query);
+                    if (account.Count > 0)
                     {
-                        taikhoans.Add(dataReader.GetString(1));
+                        MessageBox.Show("Login Success");
+                        this.Hide();
+                        var formControl = new Control();
+                        formControl.UserLogin = modify.getRole(query);
+                        formControl.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Incorrect password");
                     }
                 }
-
-                query += " WHERE username=" + txtUsername.Text;
-
-                //this.Hide();
-                new Control().Show();
+        
 
             }catch(Exception ex)
             {   

@@ -13,6 +13,12 @@ namespace FORMBKA
 
         }
 
+        public string getUser(string username)
+        {
+            return username;
+        }
+
+
         
     }
 }
