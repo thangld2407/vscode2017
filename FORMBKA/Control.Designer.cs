@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Control));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.numberPhuGia3 = new System.Windows.Forms.NumericUpDown();
@@ -59,18 +60,18 @@
             this.standardControl6 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl11 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl14 = new SymbolFactoryDotNet.StandardControl();
-            this.standardControl15 = new SymbolFactoryDotNet.StandardControl();
+            this.controlKGPGVan4 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl16 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl21 = new SymbolFactoryDotNet.StandardControl();
-            this.standardControl17 = new SymbolFactoryDotNet.StandardControl();
+            this.controlVAN5CANXICAT = new SymbolFactoryDotNet.StandardControl();
             this.standardControl18 = new SymbolFactoryDotNet.StandardControl();
-            this.standardControl19 = new SymbolFactoryDotNet.StandardControl();
+            this.controlTroKhoangVan6 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl20 = new SymbolFactoryDotNet.StandardControl();
-            this.standardControl7 = new SymbolFactoryDotNet.StandardControl();
+            this.controlPG1Van1 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl8 = new SymbolFactoryDotNet.StandardControl();
-            this.standardControl9 = new SymbolFactoryDotNet.StandardControl();
+            this.controlPG2Van2 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl10 = new SymbolFactoryDotNet.StandardControl();
-            this.standardControl12 = new SymbolFactoryDotNet.StandardControl();
+            this.controlPG3Van3 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl13 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl22 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl23 = new SymbolFactoryDotNet.StandardControl();
@@ -110,23 +111,28 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
+            this.btnSetting = new System.Windows.Forms.Button();
+            this.panelSettings = new System.Windows.Forms.Panel();
+            this.btnQuanLy = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numberPhuGia3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numberPhuGia2)).BeginInit();
@@ -144,18 +150,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.standardControl6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.controlKGPGVan4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.controlVAN5CANXICAT)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.controlTroKhoangVan6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.controlPG1Van1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.controlPG2Van2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.controlPG3Van3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl23)).BeginInit();
@@ -169,6 +175,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.standardControl32)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl33)).BeginInit();
             this.groupBox3.SuspendLayout();
+            this.panelSettings.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -610,30 +617,30 @@
             this.standardControl14.SymbolHandle = ((long)(624410972));
             this.standardControl14.TabIndex = 19;
             // 
-            // standardControl15
+            // controlKGPGVan4
             // 
-            this.standardControl15.AnalogIntValue1 = ((short)(0));
-            this.standardControl15.AnalogValue1 = 0D;
-            this.standardControl15.BackColor = System.Drawing.Color.Transparent;
-            this.standardControl15.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
-            this.standardControl15.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl15.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
-            this.standardControl15.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
-            this.standardControl15.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
-            this.standardControl15.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
-            this.standardControl15.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
-            this.standardControl15.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
-            this.standardControl15.BlinkColor = System.Drawing.Color.Red;
-            this.standardControl15.Category = "1VLV.cat2";
-            this.standardControl15.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl15.DebugData"));
-            this.standardControl15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl15.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
-            this.standardControl15.Location = new System.Drawing.Point(594, 378);
-            this.standardControl15.Name = "standardControl15";
-            this.standardControl15.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
-            this.standardControl15.Size = new System.Drawing.Size(29, 33);
-            this.standardControl15.SymbolHandle = ((long)(1895787370));
-            this.standardControl15.TabIndex = 21;
+            this.controlKGPGVan4.AnalogIntValue1 = ((short)(0));
+            this.controlKGPGVan4.AnalogValue1 = 0D;
+            this.controlKGPGVan4.BackColor = System.Drawing.Color.Transparent;
+            this.controlKGPGVan4.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
+            this.controlKGPGVan4.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
+            this.controlKGPGVan4.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
+            this.controlKGPGVan4.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
+            this.controlKGPGVan4.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
+            this.controlKGPGVan4.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
+            this.controlKGPGVan4.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
+            this.controlKGPGVan4.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
+            this.controlKGPGVan4.BlinkColor = System.Drawing.Color.Red;
+            this.controlKGPGVan4.Category = "1VLV.cat2";
+            this.controlKGPGVan4.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("controlKGPGVan4.DebugData"));
+            this.controlKGPGVan4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.controlKGPGVan4.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
+            this.controlKGPGVan4.Location = new System.Drawing.Point(594, 378);
+            this.controlKGPGVan4.Name = "controlKGPGVan4";
+            this.controlKGPGVan4.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
+            this.controlKGPGVan4.Size = new System.Drawing.Size(29, 33);
+            this.controlKGPGVan4.SymbolHandle = ((long)(1895787370));
+            this.controlKGPGVan4.TabIndex = 21;
             // 
             // standardControl16
             // 
@@ -685,30 +692,30 @@
             this.standardControl21.SymbolHandle = ((long)(474454628));
             this.standardControl21.TabIndex = 26;
             // 
-            // standardControl17
+            // controlVAN5CANXICAT
             // 
-            this.standardControl17.AnalogIntValue1 = ((short)(0));
-            this.standardControl17.AnalogValue1 = 0D;
-            this.standardControl17.BackColor = System.Drawing.Color.Transparent;
-            this.standardControl17.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
-            this.standardControl17.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl17.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
-            this.standardControl17.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
-            this.standardControl17.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
-            this.standardControl17.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
-            this.standardControl17.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
-            this.standardControl17.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
-            this.standardControl17.BlinkColor = System.Drawing.Color.Red;
-            this.standardControl17.Category = "1VLV.cat2";
-            this.standardControl17.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl17.DebugData"));
-            this.standardControl17.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl17.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
-            this.standardControl17.Location = new System.Drawing.Point(761, 384);
-            this.standardControl17.Name = "standardControl17";
-            this.standardControl17.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
-            this.standardControl17.Size = new System.Drawing.Size(29, 33);
-            this.standardControl17.SymbolHandle = ((long)(1895787370));
-            this.standardControl17.TabIndex = 28;
+            this.controlVAN5CANXICAT.AnalogIntValue1 = ((short)(0));
+            this.controlVAN5CANXICAT.AnalogValue1 = 0D;
+            this.controlVAN5CANXICAT.BackColor = System.Drawing.Color.Transparent;
+            this.controlVAN5CANXICAT.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
+            this.controlVAN5CANXICAT.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
+            this.controlVAN5CANXICAT.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
+            this.controlVAN5CANXICAT.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
+            this.controlVAN5CANXICAT.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
+            this.controlVAN5CANXICAT.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
+            this.controlVAN5CANXICAT.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
+            this.controlVAN5CANXICAT.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
+            this.controlVAN5CANXICAT.BlinkColor = System.Drawing.Color.Red;
+            this.controlVAN5CANXICAT.Category = "1VLV.cat2";
+            this.controlVAN5CANXICAT.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("controlVAN5CANXICAT.DebugData"));
+            this.controlVAN5CANXICAT.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.controlVAN5CANXICAT.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
+            this.controlVAN5CANXICAT.Location = new System.Drawing.Point(761, 384);
+            this.controlVAN5CANXICAT.Name = "controlVAN5CANXICAT";
+            this.controlVAN5CANXICAT.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
+            this.controlVAN5CANXICAT.Size = new System.Drawing.Size(29, 33);
+            this.controlVAN5CANXICAT.SymbolHandle = ((long)(1895787370));
+            this.controlVAN5CANXICAT.TabIndex = 28;
             // 
             // standardControl18
             // 
@@ -735,30 +742,30 @@
             this.standardControl18.SymbolHandle = ((long)(414364654));
             this.standardControl18.TabIndex = 27;
             // 
-            // standardControl19
+            // controlTroKhoangVan6
             // 
-            this.standardControl19.AnalogIntValue1 = ((short)(0));
-            this.standardControl19.AnalogValue1 = 0D;
-            this.standardControl19.BackColor = System.Drawing.Color.Transparent;
-            this.standardControl19.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
-            this.standardControl19.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl19.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
-            this.standardControl19.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
-            this.standardControl19.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
-            this.standardControl19.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
-            this.standardControl19.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
-            this.standardControl19.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
-            this.standardControl19.BlinkColor = System.Drawing.Color.Red;
-            this.standardControl19.Category = "1VLV.cat2";
-            this.standardControl19.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl19.DebugData"));
-            this.standardControl19.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl19.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
-            this.standardControl19.Location = new System.Drawing.Point(852, 381);
-            this.standardControl19.Name = "standardControl19";
-            this.standardControl19.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
-            this.standardControl19.Size = new System.Drawing.Size(29, 36);
-            this.standardControl19.SymbolHandle = ((long)(1895787370));
-            this.standardControl19.TabIndex = 30;
+            this.controlTroKhoangVan6.AnalogIntValue1 = ((short)(0));
+            this.controlTroKhoangVan6.AnalogValue1 = 0D;
+            this.controlTroKhoangVan6.BackColor = System.Drawing.Color.Transparent;
+            this.controlTroKhoangVan6.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
+            this.controlTroKhoangVan6.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
+            this.controlTroKhoangVan6.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
+            this.controlTroKhoangVan6.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
+            this.controlTroKhoangVan6.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
+            this.controlTroKhoangVan6.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
+            this.controlTroKhoangVan6.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
+            this.controlTroKhoangVan6.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
+            this.controlTroKhoangVan6.BlinkColor = System.Drawing.Color.Red;
+            this.controlTroKhoangVan6.Category = "1VLV.cat2";
+            this.controlTroKhoangVan6.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("controlTroKhoangVan6.DebugData"));
+            this.controlTroKhoangVan6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.controlTroKhoangVan6.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
+            this.controlTroKhoangVan6.Location = new System.Drawing.Point(852, 381);
+            this.controlTroKhoangVan6.Name = "controlTroKhoangVan6";
+            this.controlTroKhoangVan6.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
+            this.controlTroKhoangVan6.Size = new System.Drawing.Size(29, 36);
+            this.controlTroKhoangVan6.SymbolHandle = ((long)(1895787370));
+            this.controlTroKhoangVan6.TabIndex = 30;
             // 
             // standardControl20
             // 
@@ -785,30 +792,31 @@
             this.standardControl20.SymbolHandle = ((long)(414364654));
             this.standardControl20.TabIndex = 29;
             // 
-            // standardControl7
+            // controlPG1Van1
             // 
-            this.standardControl7.AnalogIntValue1 = ((short)(0));
-            this.standardControl7.AnalogValue1 = 0D;
-            this.standardControl7.BackColor = System.Drawing.Color.Red;
-            this.standardControl7.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
-            this.standardControl7.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl7.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
-            this.standardControl7.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
-            this.standardControl7.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
-            this.standardControl7.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
-            this.standardControl7.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
-            this.standardControl7.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
-            this.standardControl7.BlinkColor = System.Drawing.Color.Red;
-            this.standardControl7.Category = "1VLV.cat2";
-            this.standardControl7.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl7.DebugData"));
-            this.standardControl7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl7.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
-            this.standardControl7.Location = new System.Drawing.Point(541, 237);
-            this.standardControl7.Name = "standardControl7";
-            this.standardControl7.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
-            this.standardControl7.Size = new System.Drawing.Size(29, 36);
-            this.standardControl7.SymbolHandle = ((long)(1895787370));
-            this.standardControl7.TabIndex = 32;
+            this.controlPG1Van1.AnalogIntValue1 = ((short)(0));
+            this.controlPG1Van1.AnalogValue1 = 0D;
+            this.controlPG1Van1.BackColor = System.Drawing.Color.Red;
+            this.controlPG1Van1.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
+            this.controlPG1Van1.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
+            this.controlPG1Van1.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
+            this.controlPG1Van1.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
+            this.controlPG1Van1.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
+            this.controlPG1Van1.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
+            this.controlPG1Van1.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
+            this.controlPG1Van1.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
+            this.controlPG1Van1.BlinkColor = System.Drawing.Color.Red;
+            this.controlPG1Van1.Category = "1VLV.cat2";
+            this.controlPG1Van1.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("controlPG1Van1.DebugData"));
+            this.controlPG1Van1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.controlPG1Van1.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
+            this.controlPG1Van1.Location = new System.Drawing.Point(541, 237);
+            this.controlPG1Van1.Name = "controlPG1Van1";
+            this.controlPG1Van1.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
+            this.controlPG1Van1.Size = new System.Drawing.Size(29, 36);
+            this.controlPG1Van1.SymbolHandle = ((long)(1895787370));
+            this.controlPG1Van1.TabIndex = 32;
+            this.controlPG1Van1.Load += new System.EventHandler(this.standardControl7_Load);
             // 
             // standardControl8
             // 
@@ -834,31 +842,32 @@
             this.standardControl8.Size = new System.Drawing.Size(99, 82);
             this.standardControl8.SymbolHandle = ((long)(414364654));
             this.standardControl8.TabIndex = 31;
+            this.standardControl8.Load += new System.EventHandler(this.standardControl8_Load);
             // 
-            // standardControl9
+            // controlPG2Van2
             // 
-            this.standardControl9.AnalogIntValue1 = ((short)(0));
-            this.standardControl9.AnalogValue1 = 0D;
-            this.standardControl9.BackColor = System.Drawing.Color.Transparent;
-            this.standardControl9.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
-            this.standardControl9.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl9.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
-            this.standardControl9.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
-            this.standardControl9.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
-            this.standardControl9.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
-            this.standardControl9.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
-            this.standardControl9.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
-            this.standardControl9.BlinkColor = System.Drawing.Color.Red;
-            this.standardControl9.Category = "1VLV.cat2";
-            this.standardControl9.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl9.DebugData"));
-            this.standardControl9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl9.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
-            this.standardControl9.Location = new System.Drawing.Point(594, 237);
-            this.standardControl9.Name = "standardControl9";
-            this.standardControl9.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
-            this.standardControl9.Size = new System.Drawing.Size(29, 36);
-            this.standardControl9.SymbolHandle = ((long)(1895787370));
-            this.standardControl9.TabIndex = 34;
+            this.controlPG2Van2.AnalogIntValue1 = ((short)(0));
+            this.controlPG2Van2.AnalogValue1 = 0D;
+            this.controlPG2Van2.BackColor = System.Drawing.Color.Transparent;
+            this.controlPG2Van2.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
+            this.controlPG2Van2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
+            this.controlPG2Van2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
+            this.controlPG2Van2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
+            this.controlPG2Van2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
+            this.controlPG2Van2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
+            this.controlPG2Van2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
+            this.controlPG2Van2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
+            this.controlPG2Van2.BlinkColor = System.Drawing.Color.Red;
+            this.controlPG2Van2.Category = "1VLV.cat2";
+            this.controlPG2Van2.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("controlPG2Van2.DebugData"));
+            this.controlPG2Van2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.controlPG2Van2.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
+            this.controlPG2Van2.Location = new System.Drawing.Point(594, 237);
+            this.controlPG2Van2.Name = "controlPG2Van2";
+            this.controlPG2Van2.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
+            this.controlPG2Van2.Size = new System.Drawing.Size(29, 36);
+            this.controlPG2Van2.SymbolHandle = ((long)(1895787370));
+            this.controlPG2Van2.TabIndex = 34;
             // 
             // standardControl10
             // 
@@ -884,31 +893,32 @@
             this.standardControl10.Size = new System.Drawing.Size(99, 82);
             this.standardControl10.SymbolHandle = ((long)(414364654));
             this.standardControl10.TabIndex = 33;
+            this.standardControl10.Load += new System.EventHandler(this.standardControl10_Load);
             // 
-            // standardControl12
+            // controlPG3Van3
             // 
-            this.standardControl12.AnalogIntValue1 = ((short)(0));
-            this.standardControl12.AnalogValue1 = 0D;
-            this.standardControl12.BackColor = System.Drawing.Color.Transparent;
-            this.standardControl12.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
-            this.standardControl12.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl12.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
-            this.standardControl12.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
-            this.standardControl12.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
-            this.standardControl12.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
-            this.standardControl12.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
-            this.standardControl12.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
-            this.standardControl12.BlinkColor = System.Drawing.Color.Red;
-            this.standardControl12.Category = "1VLV.cat2";
-            this.standardControl12.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl12.DebugData"));
-            this.standardControl12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl12.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
-            this.standardControl12.Location = new System.Drawing.Point(647, 237);
-            this.standardControl12.Name = "standardControl12";
-            this.standardControl12.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
-            this.standardControl12.Size = new System.Drawing.Size(29, 36);
-            this.standardControl12.SymbolHandle = ((long)(1895787370));
-            this.standardControl12.TabIndex = 36;
+            this.controlPG3Van3.AnalogIntValue1 = ((short)(0));
+            this.controlPG3Van3.AnalogValue1 = 0D;
+            this.controlPG3Van3.BackColor = System.Drawing.Color.Transparent;
+            this.controlPG3Van3.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
+            this.controlPG3Van3.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
+            this.controlPG3Van3.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
+            this.controlPG3Van3.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
+            this.controlPG3Van3.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
+            this.controlPG3Van3.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
+            this.controlPG3Van3.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
+            this.controlPG3Van3.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
+            this.controlPG3Van3.BlinkColor = System.Drawing.Color.Red;
+            this.controlPG3Van3.Category = "1VLV.cat2";
+            this.controlPG3Van3.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("controlPG3Van3.DebugData"));
+            this.controlPG3Van3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.controlPG3Van3.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
+            this.controlPG3Van3.Location = new System.Drawing.Point(647, 237);
+            this.controlPG3Van3.Name = "controlPG3Van3";
+            this.controlPG3Van3.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
+            this.controlPG3Van3.Size = new System.Drawing.Size(29, 36);
+            this.controlPG3Van3.SymbolHandle = ((long)(1895787370));
+            this.controlPG3Van3.TabIndex = 36;
             // 
             // standardControl13
             // 
@@ -1369,7 +1379,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(954, 9);
+            this.label21.Location = new System.Drawing.Point(990, 9);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(0, 13);
             this.label21.TabIndex = 67;
@@ -1378,7 +1388,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(862, 9);
+            this.label22.Location = new System.Drawing.Point(860, 9);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(57, 16);
             this.label22.TabIndex = 68;
@@ -1388,7 +1398,7 @@
             // 
             this.lbUserLogin.AutoSize = true;
             this.lbUserLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbUserLogin.Location = new System.Drawing.Point(914, 9);
+            this.lbUserLogin.Location = new System.Drawing.Point(912, 9);
             this.lbUserLogin.Name = "lbUserLogin";
             this.lbUserLogin.Size = new System.Drawing.Size(0, 16);
             this.lbUserLogin.TabIndex = 69;
@@ -1396,18 +1406,18 @@
             // 
             // btnLogut
             // 
-            this.btnLogut.Location = new System.Drawing.Point(1118, 6);
+            this.btnLogut.Location = new System.Drawing.Point(0, 98);
             this.btnLogut.Name = "btnLogut";
-            this.btnLogut.Size = new System.Drawing.Size(75, 23);
+            this.btnLogut.Size = new System.Drawing.Size(128, 23);
             this.btnLogut.TabIndex = 70;
             this.btnLogut.Text = "Đăng xuất";
             this.btnLogut.UseVisualStyleBackColor = true;
             // 
             // btnChangePassword
             // 
-            this.btnChangePassword.Location = new System.Drawing.Point(990, 6);
+            this.btnChangePassword.Location = new System.Drawing.Point(0, 55);
             this.btnChangePassword.Name = "btnChangePassword";
-            this.btnChangePassword.Size = new System.Drawing.Size(105, 23);
+            this.btnChangePassword.Size = new System.Drawing.Size(128, 23);
             this.btnChangePassword.TabIndex = 71;
             this.btnChangePassword.Text = "Đổi mật khẩu";
             this.btnChangePassword.UseVisualStyleBackColor = true;
@@ -1456,6 +1466,78 @@
             this.groupBox3.Size = new System.Drawing.Size(169, 249);
             this.groupBox3.TabIndex = 75;
             this.groupBox3.TabStop = false;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.White;
+            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.ForeColor = System.Drawing.Color.Black;
+            this.button10.Location = new System.Drawing.Point(87, 207);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(75, 36);
+            this.button10.TabIndex = 10;
+            this.button10.Text = "Tắt van 6";
+            this.button10.UseVisualStyleBackColor = false;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.White;
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.Black;
+            this.button9.Location = new System.Drawing.Point(7, 206);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(75, 36);
+            this.button9.TabIndex = 9;
+            this.button9.Text = "Tắt van 5";
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.White;
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.Color.Black;
+            this.button8.Location = new System.Drawing.Point(87, 166);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 36);
+            this.button8.TabIndex = 8;
+            this.button8.Text = "Tắt van 4";
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.White;
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.Black;
+            this.button7.Location = new System.Drawing.Point(5, 164);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 36);
+            this.button7.TabIndex = 7;
+            this.button7.Text = "Tắt van 3";
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.White;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.Black;
+            this.button6.Location = new System.Drawing.Point(87, 125);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 36);
+            this.button6.TabIndex = 6;
+            this.button6.Text = "Tắt van 2";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.White;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.Black;
+            this.button5.Location = new System.Drawing.Point(6, 125);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 36);
+            this.button5.TabIndex = 5;
+            this.button5.Text = "Tắt van 1";
+            this.button5.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
@@ -1519,78 +1601,6 @@
             this.label23.TabIndex = 0;
             this.label23.Text = "Manual";
             // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(6, 125);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 36);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Tắt van 1";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(87, 125);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 36);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "Tắt van 2";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.White;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.Black;
-            this.button7.Location = new System.Drawing.Point(5, 164);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 36);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "Tắt van 3";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.White;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.Black;
-            this.button8.Location = new System.Drawing.Point(87, 166);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 36);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "Tắt van 4";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.White;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.Black;
-            this.button9.Location = new System.Drawing.Point(7, 206);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 36);
-            this.button9.TabIndex = 9;
-            this.button9.Text = "Tắt van 5";
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.White;
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.Black;
-            this.button10.Location = new System.Drawing.Point(87, 207);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 36);
-            this.button10.TabIndex = 10;
-            this.button10.Text = "Tắt van 6";
-            this.button10.UseVisualStyleBackColor = false;
-            // 
             // label24
             // 
             this.label24.AutoSize = true;
@@ -1651,11 +1661,58 @@
             this.label29.TabIndex = 81;
             this.label29.Text = "Van 6";
             // 
+            // btnSetting
+            // 
+            this.btnSetting.Location = new System.Drawing.Point(0, 0);
+            this.btnSetting.Name = "btnSetting";
+            this.btnSetting.Size = new System.Drawing.Size(128, 23);
+            this.btnSetting.TabIndex = 82;
+            this.btnSetting.Text = "Settings";
+            this.btnSetting.UseVisualStyleBackColor = true;
+            this.btnSetting.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // panelSettings
+            // 
+            this.panelSettings.Controls.Add(this.button12);
+            this.panelSettings.Controls.Add(this.btnQuanLy);
+            this.panelSettings.Controls.Add(this.btnSetting);
+            this.panelSettings.Controls.Add(this.btnChangePassword);
+            this.panelSettings.Controls.Add(this.btnLogut);
+            this.panelSettings.Location = new System.Drawing.Point(1054, 9);
+            this.panelSettings.MaximumSize = new System.Drawing.Size(128, 222);
+            this.panelSettings.MinimumSize = new System.Drawing.Size(128, 23);
+            this.panelSettings.Name = "panelSettings";
+            this.panelSettings.Size = new System.Drawing.Size(128, 24);
+            this.panelSettings.TabIndex = 83;
+            // 
+            // btnQuanLy
+            // 
+            this.btnQuanLy.Location = new System.Drawing.Point(0, 35);
+            this.btnQuanLy.Name = "btnQuanLy";
+            this.btnQuanLy.Size = new System.Drawing.Size(128, 23);
+            this.btnQuanLy.TabIndex = 83;
+            this.btnQuanLy.Text = "Quản lý tài khoản";
+            this.btnQuanLy.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(0, 76);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(128, 23);
+            this.button12.TabIndex = 84;
+            this.button12.Text = "Báo cáo";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Control
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1205, 641);
+            this.Controls.Add(this.panelSettings);
             this.Controls.Add(this.label29);
             this.Controls.Add(this.label28);
             this.Controls.Add(this.label27);
@@ -1666,8 +1723,6 @@
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.btnChangePassword);
-            this.Controls.Add(this.btnLogut);
             this.Controls.Add(this.lbUserLogin);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label21);
@@ -1699,18 +1754,18 @@
             this.Controls.Add(this.standardControl24);
             this.Controls.Add(this.standardControl23);
             this.Controls.Add(this.standardControl22);
-            this.Controls.Add(this.standardControl12);
+            this.Controls.Add(this.controlPG3Van3);
             this.Controls.Add(this.standardControl13);
-            this.Controls.Add(this.standardControl9);
+            this.Controls.Add(this.controlPG2Van2);
             this.Controls.Add(this.standardControl10);
-            this.Controls.Add(this.standardControl7);
+            this.Controls.Add(this.controlPG1Van1);
             this.Controls.Add(this.standardControl8);
-            this.Controls.Add(this.standardControl19);
+            this.Controls.Add(this.controlTroKhoangVan6);
             this.Controls.Add(this.standardControl20);
-            this.Controls.Add(this.standardControl17);
+            this.Controls.Add(this.controlVAN5CANXICAT);
             this.Controls.Add(this.standardControl18);
             this.Controls.Add(this.standardControl21);
-            this.Controls.Add(this.standardControl15);
+            this.Controls.Add(this.controlKGPGVan4);
             this.Controls.Add(this.standardControl16);
             this.Controls.Add(this.standardControl14);
             this.Controls.Add(this.standardControl11);
@@ -1744,18 +1799,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.standardControl6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.controlKGPGVan4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.controlVAN5CANXICAT)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.controlTroKhoangVan6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.controlPG1Van1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.controlPG2Van2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.controlPG3Van3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl23)).EndInit();
@@ -1770,6 +1825,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.standardControl33)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.panelSettings.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1807,18 +1863,18 @@
         private SymbolFactoryDotNet.StandardControl standardControl6;
         private SymbolFactoryDotNet.StandardControl standardControl11;
         private SymbolFactoryDotNet.StandardControl standardControl14;
-        private SymbolFactoryDotNet.StandardControl standardControl15;
+        private SymbolFactoryDotNet.StandardControl controlKGPGVan4;
         private SymbolFactoryDotNet.StandardControl standardControl16;
         private SymbolFactoryDotNet.StandardControl standardControl21;
-        private SymbolFactoryDotNet.StandardControl standardControl17;
+        private SymbolFactoryDotNet.StandardControl controlVAN5CANXICAT;
         private SymbolFactoryDotNet.StandardControl standardControl18;
-        private SymbolFactoryDotNet.StandardControl standardControl19;
+        private SymbolFactoryDotNet.StandardControl controlTroKhoangVan6;
         private SymbolFactoryDotNet.StandardControl standardControl20;
-        private SymbolFactoryDotNet.StandardControl standardControl7;
+        private SymbolFactoryDotNet.StandardControl controlPG1Van1;
         private SymbolFactoryDotNet.StandardControl standardControl8;
-        private SymbolFactoryDotNet.StandardControl standardControl9;
+        private SymbolFactoryDotNet.StandardControl controlPG2Van2;
         private SymbolFactoryDotNet.StandardControl standardControl10;
-        private SymbolFactoryDotNet.StandardControl standardControl12;
+        private SymbolFactoryDotNet.StandardControl controlPG3Van3;
         private SymbolFactoryDotNet.StandardControl standardControl13;
         private SymbolFactoryDotNet.StandardControl standardControl22;
         private SymbolFactoryDotNet.StandardControl standardControl23;
@@ -1875,5 +1931,10 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Button btnSetting;
+        private System.Windows.Forms.Panel panelSettings;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button btnQuanLy;
+        private System.Windows.Forms.Timer timer1;
     }
 }

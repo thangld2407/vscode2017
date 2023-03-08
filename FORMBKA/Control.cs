@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SymbolFactoryDotNet;
 
 namespace FORMBKA
 {
@@ -15,6 +16,7 @@ namespace FORMBKA
     {
         public string UserLogin { get; set; }
         public bool isChange = false;
+        public bool isCollapsed;
         public Control()
         {
             InitializeComponent();
@@ -53,6 +55,7 @@ namespace FORMBKA
             isChange = true;
             pgColor1.Text = "111";
             //changeColor();
+            controlPG1Van1.DiscreteValue1 = true;
 
 
         }
@@ -88,6 +91,50 @@ namespace FORMBKA
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void standardControl7_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void standardControl10_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void standardControl8_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            timer1.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (isCollapsed)
+            {
+                panelSettings.Height += 100;
+
+                if (panelSettings.Size == panelSettings.MaximumSize)
+                {
+                    timer1.Stop();
+                    isCollapsed = false;
+                }
+
+            }
+            else
+            {
+                panelSettings.Height -= 100;
+                if (panelSettings.Size == panelSettings.MinimumSize)
+                {
+                    timer1.Stop();
+                    isCollapsed = true;
+                }
+            }
         }
     }
 }
