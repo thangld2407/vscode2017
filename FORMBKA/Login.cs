@@ -37,7 +37,7 @@ namespace FORMBKA
                 }
                 else
                 {
-                    string query = "SELECT * FROM Account WHERE username = '"+username+"' " ;
+                    string query = "SELECT * FROM Account WHERE username = '"+username+"' and password= '" + password + " ' " ;
 
                     var account = modify.Accounts(query);
                     if (account.Count > 0)
@@ -46,6 +46,7 @@ namespace FORMBKA
                         this.Hide();
                         var formControl = new Control();
                         formControl.UserLogin = modify.getRole(query);
+                        formControl.username = username;
                         formControl.Show();
                     }
                     else

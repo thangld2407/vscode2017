@@ -80,10 +80,10 @@
             this.standardControl26 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl29 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl28 = new SymbolFactoryDotNet.StandardControl();
-            this.standardControl30 = new SymbolFactoryDotNet.StandardControl();
-            this.standardControl31 = new SymbolFactoryDotNet.StandardControl();
-            this.standardControl32 = new SymbolFactoryDotNet.StandardControl();
-            this.standardControl33 = new SymbolFactoryDotNet.StandardControl();
+            this.ximangControl = new SymbolFactoryDotNet.StandardControl();
+            this.catControl = new SymbolFactoryDotNet.StandardControl();
+            this.trobayControl = new SymbolFactoryDotNet.StandardControl();
+            this.pgkControl = new SymbolFactoryDotNet.StandardControl();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -107,20 +107,20 @@
             this.lbUserLogin = new System.Windows.Forms.Label();
             this.btnLogut = new System.Windows.Forms.Button();
             this.btnChangePassword = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.pgTotal = new System.Windows.Forms.TextBox();
+            this.totalXiCat = new System.Windows.Forms.TextBox();
+            this.totalTroKhoang = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnHandleVan6 = new System.Windows.Forms.Button();
+            this.btnHandleVan5 = new System.Windows.Forms.Button();
+            this.btnHandleVan4 = new System.Windows.Forms.Button();
+            this.btnHandleVan3 = new System.Windows.Forms.Button();
+            this.btnHandleVan2 = new System.Windows.Forms.Button();
+            this.btnHandleVan1 = new System.Windows.Forms.Button();
+            this.btnHandleVitPGK = new System.Windows.Forms.Button();
+            this.btnHandleVitTroBay = new System.Windows.Forms.Button();
+            this.btnHandleVitCat = new System.Windows.Forms.Button();
+            this.btnHandleVitXiMang = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
@@ -130,8 +130,8 @@
             this.label29 = new System.Windows.Forms.Label();
             this.btnSetting = new System.Windows.Forms.Button();
             this.panelSettings = new System.Windows.Forms.Panel();
-            this.btnQuanLy = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
+            this.btnQuanLy = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numberPhuGia3)).BeginInit();
@@ -170,10 +170,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.standardControl26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl29)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl32)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl33)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ximangControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.catControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trobayControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pgkControl)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.panelSettings.SuspendLayout();
             this.SuspendLayout();
@@ -205,6 +205,7 @@
             // 
             // numberPhuGia3
             // 
+            this.numberPhuGia3.Enabled = false;
             this.numberPhuGia3.Location = new System.Drawing.Point(82, 302);
             this.numberPhuGia3.Name = "numberPhuGia3";
             this.numberPhuGia3.Size = new System.Drawing.Size(86, 20);
@@ -224,6 +225,7 @@
             // 
             // numberPhuGia2
             // 
+            this.numberPhuGia2.Enabled = false;
             this.numberPhuGia2.Location = new System.Drawing.Point(82, 266);
             this.numberPhuGia2.Name = "numberPhuGia2";
             this.numberPhuGia2.Size = new System.Drawing.Size(86, 20);
@@ -243,6 +245,7 @@
             // 
             // numberPhuGia1
             // 
+            this.numberPhuGia1.Enabled = false;
             this.numberPhuGia1.Location = new System.Drawing.Point(82, 229);
             this.numberPhuGia1.Name = "numberPhuGia1";
             this.numberPhuGia1.Size = new System.Drawing.Size(86, 20);
@@ -262,6 +265,7 @@
             // 
             // numberTroBay
             // 
+            this.numberTroBay.Enabled = false;
             this.numberTroBay.Location = new System.Drawing.Point(82, 194);
             this.numberTroBay.Name = "numberTroBay";
             this.numberTroBay.Size = new System.Drawing.Size(86, 20);
@@ -281,6 +285,7 @@
             // 
             // numberKhoang
             // 
+            this.numberKhoang.Enabled = false;
             this.numberKhoang.Location = new System.Drawing.Point(82, 159);
             this.numberKhoang.Name = "numberKhoang";
             this.numberKhoang.Size = new System.Drawing.Size(86, 20);
@@ -300,6 +305,7 @@
             // 
             // numberCat
             // 
+            this.numberCat.Enabled = false;
             this.numberCat.Location = new System.Drawing.Point(82, 124);
             this.numberCat.Name = "numberCat";
             this.numberCat.Size = new System.Drawing.Size(86, 20);
@@ -319,6 +325,7 @@
             // 
             // numberXimang
             // 
+            this.numberXimang.Enabled = false;
             this.numberXimang.Location = new System.Drawing.Point(82, 89);
             this.numberXimang.Name = "numberXimang";
             this.numberXimang.Size = new System.Drawing.Size(86, 20);
@@ -375,6 +382,7 @@
             this.btnReset.TabIndex = 4;
             this.btnReset.Text = "RESET";
             this.btnReset.UseVisualStyleBackColor = false;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnManual
             // 
@@ -387,6 +395,7 @@
             this.btnManual.TabIndex = 3;
             this.btnManual.Text = "MANUAL";
             this.btnManual.UseVisualStyleBackColor = false;
+            this.btnManual.Click += new System.EventHandler(this.btnManual_Click);
             // 
             // btnStart
             // 
@@ -403,7 +412,7 @@
             // 
             // btnAuto
             // 
-            this.btnAuto.BackColor = System.Drawing.Color.Yellow;
+            this.btnAuto.BackColor = System.Drawing.Color.White;
             this.btnAuto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAuto.ForeColor = System.Drawing.Color.Black;
             this.btnAuto.Location = new System.Drawing.Point(5, 64);
@@ -412,6 +421,7 @@
             this.btnAuto.TabIndex = 1;
             this.btnAuto.Text = "AUTO";
             this.btnAuto.UseVisualStyleBackColor = false;
+            this.btnAuto.Click += new System.EventHandler(this.btnAuto_Click);
             // 
             // label16
             // 
@@ -633,7 +643,7 @@
             this.controlKGPGVan4.BlinkColor = System.Drawing.Color.Red;
             this.controlKGPGVan4.Category = "1VLV.cat2";
             this.controlKGPGVan4.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("controlKGPGVan4.DebugData"));
-            this.controlKGPGVan4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.controlKGPGVan4.FillColor = System.Drawing.Color.Red;
             this.controlKGPGVan4.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
             this.controlKGPGVan4.Location = new System.Drawing.Point(594, 378);
             this.controlKGPGVan4.Name = "controlKGPGVan4";
@@ -708,7 +718,7 @@
             this.controlVAN5CANXICAT.BlinkColor = System.Drawing.Color.Red;
             this.controlVAN5CANXICAT.Category = "1VLV.cat2";
             this.controlVAN5CANXICAT.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("controlVAN5CANXICAT.DebugData"));
-            this.controlVAN5CANXICAT.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.controlVAN5CANXICAT.FillColor = System.Drawing.Color.Red;
             this.controlVAN5CANXICAT.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
             this.controlVAN5CANXICAT.Location = new System.Drawing.Point(761, 384);
             this.controlVAN5CANXICAT.Name = "controlVAN5CANXICAT";
@@ -758,7 +768,7 @@
             this.controlTroKhoangVan6.BlinkColor = System.Drawing.Color.Red;
             this.controlTroKhoangVan6.Category = "1VLV.cat2";
             this.controlTroKhoangVan6.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("controlTroKhoangVan6.DebugData"));
-            this.controlTroKhoangVan6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.controlTroKhoangVan6.FillColor = System.Drawing.Color.Red;
             this.controlTroKhoangVan6.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
             this.controlTroKhoangVan6.Location = new System.Drawing.Point(852, 381);
             this.controlTroKhoangVan6.Name = "controlTroKhoangVan6";
@@ -808,7 +818,7 @@
             this.controlPG1Van1.BlinkColor = System.Drawing.Color.Red;
             this.controlPG1Van1.Category = "1VLV.cat2";
             this.controlPG1Van1.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("controlPG1Van1.DebugData"));
-            this.controlPG1Van1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.controlPG1Van1.FillColor = System.Drawing.Color.Red;
             this.controlPG1Van1.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
             this.controlPG1Van1.Location = new System.Drawing.Point(541, 237);
             this.controlPG1Van1.Name = "controlPG1Van1";
@@ -860,7 +870,7 @@
             this.controlPG2Van2.BlinkColor = System.Drawing.Color.Red;
             this.controlPG2Van2.Category = "1VLV.cat2";
             this.controlPG2Van2.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("controlPG2Van2.DebugData"));
-            this.controlPG2Van2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.controlPG2Van2.FillColor = System.Drawing.Color.Red;
             this.controlPG2Van2.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
             this.controlPG2Van2.Location = new System.Drawing.Point(594, 237);
             this.controlPG2Van2.Name = "controlPG2Van2";
@@ -911,7 +921,7 @@
             this.controlPG3Van3.BlinkColor = System.Drawing.Color.Red;
             this.controlPG3Van3.Category = "1VLV.cat2";
             this.controlPG3Van3.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("controlPG3Van3.DebugData"));
-            this.controlPG3Van3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.controlPG3Van3.FillColor = System.Drawing.Color.Red;
             this.controlPG3Van3.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
             this.controlPG3Van3.Location = new System.Drawing.Point(647, 237);
             this.controlPG3Van3.Name = "controlPG3Van3";
@@ -1124,99 +1134,99 @@
             this.standardControl28.SymbolHandle = ((long)(474454628));
             this.standardControl28.TabIndex = 45;
             // 
-            // standardControl30
+            // ximangControl
             // 
-            this.standardControl30.AnalogIntValue1 = ((short)(0));
-            this.standardControl30.AnalogValue1 = 0D;
-            this.standardControl30.BackColor = System.Drawing.Color.Transparent;
-            this.standardControl30.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
-            this.standardControl30.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl30.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
-            this.standardControl30.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
-            this.standardControl30.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
-            this.standardControl30.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
-            this.standardControl30.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
-            this.standardControl30.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
-            this.standardControl30.BlinkColor = System.Drawing.Color.Red;
-            this.standardControl30.Category = "1MTR.cat2";
-            this.standardControl30.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl30.DebugData"));
-            this.standardControl30.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl30.Location = new System.Drawing.Point(564, 61);
-            this.standardControl30.Name = "standardControl30";
-            this.standardControl30.Size = new System.Drawing.Size(44, 60);
-            this.standardControl30.SymbolHandle = ((long)(804987642));
-            this.standardControl30.TabIndex = 46;
+            this.ximangControl.AnalogIntValue1 = ((short)(0));
+            this.ximangControl.AnalogValue1 = 0D;
+            this.ximangControl.BackColor = System.Drawing.Color.Transparent;
+            this.ximangControl.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
+            this.ximangControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
+            this.ximangControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
+            this.ximangControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
+            this.ximangControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
+            this.ximangControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
+            this.ximangControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
+            this.ximangControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
+            this.ximangControl.BlinkColor = System.Drawing.Color.Red;
+            this.ximangControl.Category = "1MTR.cat2";
+            this.ximangControl.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("ximangControl.DebugData"));
+            this.ximangControl.FillColor = System.Drawing.Color.Red;
+            this.ximangControl.Location = new System.Drawing.Point(564, 61);
+            this.ximangControl.Name = "ximangControl";
+            this.ximangControl.Size = new System.Drawing.Size(44, 60);
+            this.ximangControl.SymbolHandle = ((long)(804987642));
+            this.ximangControl.TabIndex = 46;
             // 
-            // standardControl31
+            // catControl
             // 
-            this.standardControl31.AnalogIntValue1 = ((short)(0));
-            this.standardControl31.AnalogValue1 = 0D;
-            this.standardControl31.BackColor = System.Drawing.Color.Transparent;
-            this.standardControl31.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
-            this.standardControl31.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl31.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
-            this.standardControl31.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
-            this.standardControl31.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
-            this.standardControl31.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
-            this.standardControl31.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
-            this.standardControl31.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
-            this.standardControl31.BlinkColor = System.Drawing.Color.Red;
-            this.standardControl31.Category = "1MTR.cat2";
-            this.standardControl31.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl31.DebugData"));
-            this.standardControl31.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl31.Location = new System.Drawing.Point(541, 96);
-            this.standardControl31.Name = "standardControl31";
-            this.standardControl31.Size = new System.Drawing.Size(44, 60);
-            this.standardControl31.SymbolHandle = ((long)(804987642));
-            this.standardControl31.TabIndex = 47;
+            this.catControl.AnalogIntValue1 = ((short)(0));
+            this.catControl.AnalogValue1 = 0D;
+            this.catControl.BackColor = System.Drawing.Color.Transparent;
+            this.catControl.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
+            this.catControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
+            this.catControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
+            this.catControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
+            this.catControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
+            this.catControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
+            this.catControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
+            this.catControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
+            this.catControl.BlinkColor = System.Drawing.Color.Red;
+            this.catControl.Category = "1MTR.cat2";
+            this.catControl.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("catControl.DebugData"));
+            this.catControl.FillColor = System.Drawing.Color.Red;
+            this.catControl.Location = new System.Drawing.Point(541, 96);
+            this.catControl.Name = "catControl";
+            this.catControl.Size = new System.Drawing.Size(44, 60);
+            this.catControl.SymbolHandle = ((long)(804987642));
+            this.catControl.TabIndex = 47;
             // 
-            // standardControl32
+            // trobayControl
             // 
-            this.standardControl32.AnalogIntValue1 = ((short)(0));
-            this.standardControl32.AnalogValue1 = 0D;
-            this.standardControl32.BackColor = System.Drawing.Color.Transparent;
-            this.standardControl32.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
-            this.standardControl32.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl32.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
-            this.standardControl32.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
-            this.standardControl32.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
-            this.standardControl32.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
-            this.standardControl32.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
-            this.standardControl32.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
-            this.standardControl32.BlinkColor = System.Drawing.Color.Red;
-            this.standardControl32.Category = "1MTR.cat2";
-            this.standardControl32.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl32.DebugData"));
-            this.standardControl32.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl32.Flip = SymbolFactoryNetEngine.FlipOptions.Horizontal;
-            this.standardControl32.Location = new System.Drawing.Point(1009, 61);
-            this.standardControl32.Name = "standardControl32";
-            this.standardControl32.Size = new System.Drawing.Size(44, 60);
-            this.standardControl32.SymbolHandle = ((long)(804987642));
-            this.standardControl32.TabIndex = 48;
+            this.trobayControl.AnalogIntValue1 = ((short)(0));
+            this.trobayControl.AnalogValue1 = 0D;
+            this.trobayControl.BackColor = System.Drawing.Color.Transparent;
+            this.trobayControl.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
+            this.trobayControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
+            this.trobayControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
+            this.trobayControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
+            this.trobayControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
+            this.trobayControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
+            this.trobayControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
+            this.trobayControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
+            this.trobayControl.BlinkColor = System.Drawing.Color.Red;
+            this.trobayControl.Category = "1MTR.cat2";
+            this.trobayControl.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("trobayControl.DebugData"));
+            this.trobayControl.FillColor = System.Drawing.Color.Red;
+            this.trobayControl.Flip = SymbolFactoryNetEngine.FlipOptions.Horizontal;
+            this.trobayControl.Location = new System.Drawing.Point(1009, 61);
+            this.trobayControl.Name = "trobayControl";
+            this.trobayControl.Size = new System.Drawing.Size(44, 60);
+            this.trobayControl.SymbolHandle = ((long)(804987642));
+            this.trobayControl.TabIndex = 48;
             // 
-            // standardControl33
+            // pgkControl
             // 
-            this.standardControl33.AnalogIntValue1 = ((short)(0));
-            this.standardControl33.AnalogValue1 = 0D;
-            this.standardControl33.BackColor = System.Drawing.Color.Transparent;
-            this.standardControl33.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
-            this.standardControl33.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl33.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
-            this.standardControl33.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
-            this.standardControl33.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
-            this.standardControl33.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
-            this.standardControl33.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
-            this.standardControl33.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
-            this.standardControl33.BlinkColor = System.Drawing.Color.Red;
-            this.standardControl33.Category = "1MTR.cat2";
-            this.standardControl33.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl33.DebugData"));
-            this.standardControl33.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl33.Flip = SymbolFactoryNetEngine.FlipOptions.Horizontal;
-            this.standardControl33.Location = new System.Drawing.Point(1020, 96);
-            this.standardControl33.Name = "standardControl33";
-            this.standardControl33.Size = new System.Drawing.Size(44, 60);
-            this.standardControl33.SymbolHandle = ((long)(804987642));
-            this.standardControl33.TabIndex = 49;
+            this.pgkControl.AnalogIntValue1 = ((short)(0));
+            this.pgkControl.AnalogValue1 = 0D;
+            this.pgkControl.BackColor = System.Drawing.Color.Transparent;
+            this.pgkControl.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
+            this.pgkControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
+            this.pgkControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
+            this.pgkControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
+            this.pgkControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
+            this.pgkControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
+            this.pgkControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
+            this.pgkControl.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
+            this.pgkControl.BlinkColor = System.Drawing.Color.Red;
+            this.pgkControl.Category = "1MTR.cat2";
+            this.pgkControl.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("pgkControl.DebugData"));
+            this.pgkControl.FillColor = System.Drawing.Color.Red;
+            this.pgkControl.Flip = SymbolFactoryNetEngine.FlipOptions.Horizontal;
+            this.pgkControl.Location = new System.Drawing.Point(1020, 96);
+            this.pgkControl.Name = "pgkControl";
+            this.pgkControl.Size = new System.Drawing.Size(44, 60);
+            this.pgkControl.SymbolHandle = ((long)(804987642));
+            this.pgkControl.TabIndex = 49;
             // 
             // label9
             // 
@@ -1412,6 +1422,7 @@
             this.btnLogut.TabIndex = 70;
             this.btnLogut.Text = "Đăng xuất";
             this.btnLogut.UseVisualStyleBackColor = true;
+            this.btnLogut.Click += new System.EventHandler(this.btnLogut_Click);
             // 
             // btnChangePassword
             // 
@@ -1421,44 +1432,51 @@
             this.btnChangePassword.TabIndex = 71;
             this.btnChangePassword.Text = "Đổi mật khẩu";
             this.btnChangePassword.UseVisualStyleBackColor = true;
+            this.btnChangePassword.Click += new System.EventHandler(this.btnChangePassword_Click);
             // 
-            // textBox1
+            // pgTotal
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Green;
-            this.textBox1.Location = new System.Drawing.Point(585, 313);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(52, 20);
-            this.textBox1.TabIndex = 72;
+            this.pgTotal.BackColor = System.Drawing.Color.Green;
+            this.pgTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pgTotal.ForeColor = System.Drawing.Color.White;
+            this.pgTotal.Location = new System.Drawing.Point(585, 313);
+            this.pgTotal.Name = "pgTotal";
+            this.pgTotal.Size = new System.Drawing.Size(52, 21);
+            this.pgTotal.TabIndex = 72;
             // 
-            // textBox2
+            // totalXiCat
             // 
-            this.textBox2.BackColor = System.Drawing.Color.Green;
-            this.textBox2.Location = new System.Drawing.Point(738, 281);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(52, 20);
-            this.textBox2.TabIndex = 73;
+            this.totalXiCat.BackColor = System.Drawing.Color.Green;
+            this.totalXiCat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalXiCat.ForeColor = System.Drawing.Color.White;
+            this.totalXiCat.Location = new System.Drawing.Point(738, 281);
+            this.totalXiCat.Name = "totalXiCat";
+            this.totalXiCat.Size = new System.Drawing.Size(52, 21);
+            this.totalXiCat.TabIndex = 73;
             // 
-            // textBox7
+            // totalTroKhoang
             // 
-            this.textBox7.BackColor = System.Drawing.Color.Green;
-            this.textBox7.Location = new System.Drawing.Point(829, 281);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(52, 20);
-            this.textBox7.TabIndex = 74;
+            this.totalTroKhoang.BackColor = System.Drawing.Color.Green;
+            this.totalTroKhoang.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalTroKhoang.ForeColor = System.Drawing.Color.White;
+            this.totalTroKhoang.Location = new System.Drawing.Point(829, 281);
+            this.totalTroKhoang.Name = "totalTroKhoang";
+            this.totalTroKhoang.Size = new System.Drawing.Size(52, 21);
+            this.totalTroKhoang.TabIndex = 74;
             // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.groupBox3.Controls.Add(this.button10);
-            this.groupBox3.Controls.Add(this.button9);
-            this.groupBox3.Controls.Add(this.button8);
-            this.groupBox3.Controls.Add(this.button7);
-            this.groupBox3.Controls.Add(this.button6);
-            this.groupBox3.Controls.Add(this.button5);
-            this.groupBox3.Controls.Add(this.button1);
-            this.groupBox3.Controls.Add(this.button2);
-            this.groupBox3.Controls.Add(this.button3);
-            this.groupBox3.Controls.Add(this.button4);
+            this.groupBox3.Controls.Add(this.btnHandleVan6);
+            this.groupBox3.Controls.Add(this.btnHandleVan5);
+            this.groupBox3.Controls.Add(this.btnHandleVan4);
+            this.groupBox3.Controls.Add(this.btnHandleVan3);
+            this.groupBox3.Controls.Add(this.btnHandleVan2);
+            this.groupBox3.Controls.Add(this.btnHandleVan1);
+            this.groupBox3.Controls.Add(this.btnHandleVitPGK);
+            this.groupBox3.Controls.Add(this.btnHandleVitTroBay);
+            this.groupBox3.Controls.Add(this.btnHandleVitCat);
+            this.groupBox3.Controls.Add(this.btnHandleVitXiMang);
             this.groupBox3.Controls.Add(this.label23);
             this.groupBox3.ForeColor = System.Drawing.Color.White;
             this.groupBox3.Location = new System.Drawing.Point(1020, 322);
@@ -1467,127 +1485,135 @@
             this.groupBox3.TabIndex = 75;
             this.groupBox3.TabStop = false;
             // 
-            // button10
+            // btnHandleVan6
             // 
-            this.button10.BackColor = System.Drawing.Color.White;
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.Black;
-            this.button10.Location = new System.Drawing.Point(87, 207);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 36);
-            this.button10.TabIndex = 10;
-            this.button10.Text = "Tắt van 6";
-            this.button10.UseVisualStyleBackColor = false;
+            this.btnHandleVan6.BackColor = System.Drawing.Color.White;
+            this.btnHandleVan6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHandleVan6.ForeColor = System.Drawing.Color.Black;
+            this.btnHandleVan6.Location = new System.Drawing.Point(87, 207);
+            this.btnHandleVan6.Name = "btnHandleVan6";
+            this.btnHandleVan6.Size = new System.Drawing.Size(75, 36);
+            this.btnHandleVan6.TabIndex = 10;
+            this.btnHandleVan6.Text = "Bật van 6";
+            this.btnHandleVan6.UseVisualStyleBackColor = false;
+            this.btnHandleVan6.Click += new System.EventHandler(this.btnHandleVan6_Click);
             // 
-            // button9
+            // btnHandleVan5
             // 
-            this.button9.BackColor = System.Drawing.Color.White;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.Black;
-            this.button9.Location = new System.Drawing.Point(7, 206);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 36);
-            this.button9.TabIndex = 9;
-            this.button9.Text = "Tắt van 5";
-            this.button9.UseVisualStyleBackColor = false;
+            this.btnHandleVan5.BackColor = System.Drawing.Color.White;
+            this.btnHandleVan5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHandleVan5.ForeColor = System.Drawing.Color.Black;
+            this.btnHandleVan5.Location = new System.Drawing.Point(7, 206);
+            this.btnHandleVan5.Name = "btnHandleVan5";
+            this.btnHandleVan5.Size = new System.Drawing.Size(75, 36);
+            this.btnHandleVan5.TabIndex = 9;
+            this.btnHandleVan5.Text = "Bật van 5";
+            this.btnHandleVan5.UseVisualStyleBackColor = false;
+            this.btnHandleVan5.Click += new System.EventHandler(this.btnHandleVan5_Click);
             // 
-            // button8
+            // btnHandleVan4
             // 
-            this.button8.BackColor = System.Drawing.Color.White;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.Black;
-            this.button8.Location = new System.Drawing.Point(87, 166);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 36);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "Tắt van 4";
-            this.button8.UseVisualStyleBackColor = false;
+            this.btnHandleVan4.BackColor = System.Drawing.Color.White;
+            this.btnHandleVan4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHandleVan4.ForeColor = System.Drawing.Color.Black;
+            this.btnHandleVan4.Location = new System.Drawing.Point(87, 166);
+            this.btnHandleVan4.Name = "btnHandleVan4";
+            this.btnHandleVan4.Size = new System.Drawing.Size(75, 36);
+            this.btnHandleVan4.TabIndex = 8;
+            this.btnHandleVan4.Text = "Bật van 4";
+            this.btnHandleVan4.UseVisualStyleBackColor = false;
+            this.btnHandleVan4.Click += new System.EventHandler(this.btnHandleVan4_Click);
             // 
-            // button7
+            // btnHandleVan3
             // 
-            this.button7.BackColor = System.Drawing.Color.White;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.Black;
-            this.button7.Location = new System.Drawing.Point(5, 164);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 36);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "Tắt van 3";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btnHandleVan3.BackColor = System.Drawing.Color.White;
+            this.btnHandleVan3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHandleVan3.ForeColor = System.Drawing.Color.Black;
+            this.btnHandleVan3.Location = new System.Drawing.Point(7, 165);
+            this.btnHandleVan3.Name = "btnHandleVan3";
+            this.btnHandleVan3.Size = new System.Drawing.Size(75, 36);
+            this.btnHandleVan3.TabIndex = 7;
+            this.btnHandleVan3.Text = "Bật van 3";
+            this.btnHandleVan3.UseVisualStyleBackColor = false;
+            this.btnHandleVan3.Click += new System.EventHandler(this.btnHandleVan3_Click);
             // 
-            // button6
+            // btnHandleVan2
             // 
-            this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(87, 125);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 36);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "Tắt van 2";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnHandleVan2.BackColor = System.Drawing.Color.White;
+            this.btnHandleVan2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHandleVan2.ForeColor = System.Drawing.Color.Black;
+            this.btnHandleVan2.Location = new System.Drawing.Point(87, 125);
+            this.btnHandleVan2.Name = "btnHandleVan2";
+            this.btnHandleVan2.Size = new System.Drawing.Size(75, 36);
+            this.btnHandleVan2.TabIndex = 6;
+            this.btnHandleVan2.Text = "Bật van 2";
+            this.btnHandleVan2.UseVisualStyleBackColor = false;
+            this.btnHandleVan2.Click += new System.EventHandler(this.btnHandleVan2_Click);
             // 
-            // button5
+            // btnHandleVan1
             // 
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(6, 125);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 36);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Tắt van 1";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnHandleVan1.BackColor = System.Drawing.Color.White;
+            this.btnHandleVan1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHandleVan1.ForeColor = System.Drawing.Color.Black;
+            this.btnHandleVan1.Location = new System.Drawing.Point(6, 125);
+            this.btnHandleVan1.Name = "btnHandleVan1";
+            this.btnHandleVan1.Size = new System.Drawing.Size(75, 36);
+            this.btnHandleVan1.TabIndex = 5;
+            this.btnHandleVan1.Text = "Bật van 1";
+            this.btnHandleVan1.UseVisualStyleBackColor = false;
+            this.btnHandleVan1.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button1
+            // btnHandleVitPGK
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(87, 40);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 36);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Tắt vít PGK";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnHandleVitPGK.BackColor = System.Drawing.Color.White;
+            this.btnHandleVitPGK.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHandleVitPGK.ForeColor = System.Drawing.Color.Black;
+            this.btnHandleVitPGK.Location = new System.Drawing.Point(87, 40);
+            this.btnHandleVitPGK.Name = "btnHandleVitPGK";
+            this.btnHandleVitPGK.Size = new System.Drawing.Size(75, 36);
+            this.btnHandleVitPGK.TabIndex = 4;
+            this.btnHandleVitPGK.Text = "Bật vit PGK";
+            this.btnHandleVitPGK.UseVisualStyleBackColor = false;
+            this.btnHandleVitPGK.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnHandleVitTroBay
             // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(6, 82);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 36);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Tắt vít tro bay";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnHandleVitTroBay.BackColor = System.Drawing.Color.White;
+            this.btnHandleVitTroBay.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHandleVitTroBay.ForeColor = System.Drawing.Color.Black;
+            this.btnHandleVitTroBay.Location = new System.Drawing.Point(6, 82);
+            this.btnHandleVitTroBay.Name = "btnHandleVitTroBay";
+            this.btnHandleVitTroBay.Size = new System.Drawing.Size(75, 36);
+            this.btnHandleVitTroBay.TabIndex = 3;
+            this.btnHandleVitTroBay.Text = "Bật vít tro bay";
+            this.btnHandleVitTroBay.UseVisualStyleBackColor = false;
+            this.btnHandleVitTroBay.Click += new System.EventHandler(this.btnHandleVitTroBay_Click);
             // 
-            // button3
+            // btnHandleVitCat
             // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(88, 83);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(74, 36);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Tắt vít cát";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnHandleVitCat.BackColor = System.Drawing.Color.White;
+            this.btnHandleVitCat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHandleVitCat.ForeColor = System.Drawing.Color.Black;
+            this.btnHandleVitCat.Location = new System.Drawing.Point(88, 83);
+            this.btnHandleVitCat.Name = "btnHandleVitCat";
+            this.btnHandleVitCat.Size = new System.Drawing.Size(74, 36);
+            this.btnHandleVitCat.TabIndex = 2;
+            this.btnHandleVitCat.Text = "Bật vít cat";
+            this.btnHandleVitCat.UseVisualStyleBackColor = false;
+            this.btnHandleVitCat.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // btnHandleVitXiMang
             // 
-            this.button4.BackColor = System.Drawing.Color.Yellow;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(5, 40);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(76, 36);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "Tắt vít xi măng";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnHandleVitXiMang.BackColor = System.Drawing.Color.White;
+            this.btnHandleVitXiMang.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHandleVitXiMang.ForeColor = System.Drawing.Color.Black;
+            this.btnHandleVitXiMang.Location = new System.Drawing.Point(5, 40);
+            this.btnHandleVitXiMang.Name = "btnHandleVitXiMang";
+            this.btnHandleVitXiMang.Size = new System.Drawing.Size(76, 36);
+            this.btnHandleVitXiMang.TabIndex = 1;
+            this.btnHandleVitXiMang.Text = "Bật vít xi măng";
+            this.btnHandleVitXiMang.UseVisualStyleBackColor = false;
+            this.btnHandleVitXiMang.Click += new System.EventHandler(this.button4_Click);
             // 
             // label23
             // 
@@ -1682,17 +1708,8 @@
             this.panelSettings.MaximumSize = new System.Drawing.Size(128, 222);
             this.panelSettings.MinimumSize = new System.Drawing.Size(128, 23);
             this.panelSettings.Name = "panelSettings";
-            this.panelSettings.Size = new System.Drawing.Size(128, 24);
+            this.panelSettings.Size = new System.Drawing.Size(128, 23);
             this.panelSettings.TabIndex = 83;
-            // 
-            // btnQuanLy
-            // 
-            this.btnQuanLy.Location = new System.Drawing.Point(0, 35);
-            this.btnQuanLy.Name = "btnQuanLy";
-            this.btnQuanLy.Size = new System.Drawing.Size(128, 23);
-            this.btnQuanLy.TabIndex = 83;
-            this.btnQuanLy.Text = "Quản lý tài khoản";
-            this.btnQuanLy.UseVisualStyleBackColor = true;
             // 
             // button12
             // 
@@ -1702,6 +1719,16 @@
             this.button12.TabIndex = 84;
             this.button12.Text = "Báo cáo";
             this.button12.UseVisualStyleBackColor = true;
+            // 
+            // btnQuanLy
+            // 
+            this.btnQuanLy.Location = new System.Drawing.Point(0, 35);
+            this.btnQuanLy.Name = "btnQuanLy";
+            this.btnQuanLy.Size = new System.Drawing.Size(128, 23);
+            this.btnQuanLy.TabIndex = 83;
+            this.btnQuanLy.Text = "Quản lý tài khoản";
+            this.btnQuanLy.UseVisualStyleBackColor = true;
+            this.btnQuanLy.Click += new System.EventHandler(this.btnQuanLy_Click);
             // 
             // timer1
             // 
@@ -1720,9 +1747,9 @@
             this.Controls.Add(this.label25);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.totalTroKhoang);
+            this.Controls.Add(this.totalXiCat);
+            this.Controls.Add(this.pgTotal);
             this.Controls.Add(this.lbUserLogin);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label21);
@@ -1743,10 +1770,10 @@
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.standardControl33);
-            this.Controls.Add(this.standardControl32);
-            this.Controls.Add(this.standardControl31);
-            this.Controls.Add(this.standardControl30);
+            this.Controls.Add(this.pgkControl);
+            this.Controls.Add(this.trobayControl);
+            this.Controls.Add(this.catControl);
+            this.Controls.Add(this.ximangControl);
             this.Controls.Add(this.standardControl28);
             this.Controls.Add(this.standardControl29);
             this.Controls.Add(this.standardControl25);
@@ -1819,10 +1846,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.standardControl26)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl29)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl32)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl33)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ximangControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.catControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trobayControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pgkControl)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.panelSettings.ResumeLayout(false);
@@ -1883,10 +1910,10 @@
         private SymbolFactoryDotNet.StandardControl standardControl26;
         private SymbolFactoryDotNet.StandardControl standardControl29;
         private SymbolFactoryDotNet.StandardControl standardControl28;
-        private SymbolFactoryDotNet.StandardControl standardControl30;
-        private SymbolFactoryDotNet.StandardControl standardControl31;
-        private SymbolFactoryDotNet.StandardControl standardControl32;
-        private SymbolFactoryDotNet.StandardControl standardControl33;
+        private SymbolFactoryDotNet.StandardControl ximangControl;
+        private SymbolFactoryDotNet.StandardControl catControl;
+        private SymbolFactoryDotNet.StandardControl trobayControl;
+        private SymbolFactoryDotNet.StandardControl pgkControl;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
@@ -1910,21 +1937,21 @@
         private System.Windows.Forms.Label lbUserLogin;
         private System.Windows.Forms.Button btnLogut;
         private System.Windows.Forms.Button btnChangePassword;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox pgTotal;
+        private System.Windows.Forms.TextBox totalXiCat;
+        private System.Windows.Forms.TextBox totalTroKhoang;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnHandleVan1;
+        private System.Windows.Forms.Button btnHandleVitPGK;
+        private System.Windows.Forms.Button btnHandleVitTroBay;
+        private System.Windows.Forms.Button btnHandleVitCat;
+        private System.Windows.Forms.Button btnHandleVitXiMang;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnHandleVan6;
+        private System.Windows.Forms.Button btnHandleVan5;
+        private System.Windows.Forms.Button btnHandleVan4;
+        private System.Windows.Forms.Button btnHandleVan3;
+        private System.Windows.Forms.Button btnHandleVan2;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;

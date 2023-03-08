@@ -252,3 +252,4 @@ D:\Project\vscode2017\FORMBKA\obj\Debug\FORMBKA.csproj.CoreCompileInputs.cache
 D:\Project\vscode2017\FORMBKA\obj\Debug\FORMBKA.csproj.CopyComplete
 D:\Project\vscode2017\FORMBKA\obj\Debug\FORMBKA.exe
 D:\Project\vscode2017\FORMBKA\obj\Debug\FORMBKA.pdb
+I:\prj\FORMBKA\FORMBKA\obj\Debug\FORMBKA.ChangePw.resources
