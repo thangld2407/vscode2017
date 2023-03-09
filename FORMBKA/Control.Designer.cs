@@ -1708,7 +1708,7 @@
             this.panelSettings.MaximumSize = new System.Drawing.Size(128, 222);
             this.panelSettings.MinimumSize = new System.Drawing.Size(128, 23);
             this.panelSettings.Name = "panelSettings";
-            this.panelSettings.Size = new System.Drawing.Size(128, 23);
+            this.panelSettings.Size = new System.Drawing.Size(128, 24);
             this.panelSettings.TabIndex = 83;
             // 
             // button12

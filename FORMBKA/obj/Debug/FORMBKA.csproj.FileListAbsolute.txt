@@ -253,3 +253,5 @@ D:\Project\vscode2017\FORMBKA\obj\Debug\FORMBKA.csproj.CopyComplete
 D:\Project\vscode2017\FORMBKA\obj\Debug\FORMBKA.exe
 D:\Project\vscode2017\FORMBKA\obj\Debug\FORMBKA.pdb
 I:\prj\FORMBKA\FORMBKA\obj\Debug\FORMBKA.ChangePw.resources
+D:\Project\vscode2017\FORMBKA\obj\Debug\FORMBKA.ChangePw.resources
+D:\Project\vscode2017\FORMBKA\obj\Debug\FORMBKA.ListAccount.resources

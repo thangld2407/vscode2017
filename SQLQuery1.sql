@@ -15,6 +15,20 @@ SELECT * FROM Account
 
 UPDATE Account SET password = 'admin'  WHERE username = 'admin'
 
+CREATE TABLE Recipe (
+    totalKG int,
+    xiMang int,
+	cat int,
+	troBay int,
+	khoang int,
+	phuGia1 int,
+	phuGia2 int,
+	phuGia3 int,
+	isDefault int,
+);
+
+DROP TABLE Recipe
+
 SELECT * FROM Recipe
 
 INSERT INTO Recipe VALUES (200, 48, 48, 48, 48, 3,3,2, 0)

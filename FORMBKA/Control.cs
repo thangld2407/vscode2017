@@ -177,7 +177,7 @@ namespace FORMBKA
 
         private void btnQuanLy_Click(object sender, EventArgs e)
         {
-
+            new ListAccount().Show();
         }
 
         private void btnLogut_Click(object sender, EventArgs e)

@@ -93,7 +93,7 @@ namespace FORMBKA
 
         public RecipeObj getRecipeDefault()
         {
-            string query = "SELECT * FROM Recipe WHERE isDefault = '0'";
+            string query = "SELECT * FROM Recipe WHERE isDefault = 0";
             RecipeObj recipeObj = new RecipeObj();
 
 
