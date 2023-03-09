@@ -255,3 +255,4 @@ D:\Project\vscode2017\FORMBKA\obj\Debug\FORMBKA.pdb
 I:\prj\FORMBKA\FORMBKA\obj\Debug\FORMBKA.ChangePw.resources
 D:\Project\vscode2017\FORMBKA\obj\Debug\FORMBKA.ChangePw.resources
 D:\Project\vscode2017\FORMBKA\obj\Debug\FORMBKA.ListAccount.resources
+I:\prj\FORMBKA\FORMBKA\obj\Debug\FORMBKA.ListAccount.resources
